@@ -1,0 +1,122 @@
+.footer-nav {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+.footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #2f303a;
+}
+
+.footer-logo span {
+  color: #fff;
+}
+
+.join-list {
+  gap: 10px;
+}
+
+.address {
+  margin-top: 20px;
+  font-style: normal;
+}
+.footer-logo {
+  font-family: var(--secondary-page-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: var(--accent-page-color);
+}
+
+.footer-item:not(:last-child) {
+  margin-bottom: 9px;
+}
+
+.footer-link-map {
+  font-weight: 400;
+  line-height: 1.71;
+
+  color: var(--secondary-accent-page-color);
+}
+
+.footer-link {
+  font-weight: 400;
+  line-height: 1.71;
+
+  color: rgba(255, 255, 255, 0.6);
+
+  transition: color var(--trans-accent);
+}
+
+.footer-link:focus,
+.footer-link:hover {
+  color: var(--accent-page-color);
+}
+
+.join-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.join-title {
+  margin-bottom: 20px;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: var(--secondary-accent-page-color);
+}
+
+.join-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+  fill: #fff;
+
+  transition: background-color var(--trans-accent);
+}
+
+.join-link:hover,
+.join-link:focus {
+  background-color: var(--accent-page-color);
+  border-radius: 50%;
+}
+
+/*====== footer-form ======*/
+
+.social-form-text {
+  margin-bottom: 20px;
+
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+.inform-user-email {
+  width: 358px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 16px;
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.25;
+
+  letter-spacing: 0.03em;
+  color: #fff;
+
+  background: #2f303a;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+}
