@@ -64,10 +64,10 @@
   border-radius: 50%;
 
   transition: background-color var(--trans-accent), fill var(--trans-accent);
-}
 
-.social-link:hover,
-.social-link:focus {
-  background-color: #2196f3;
-  fill: #fff;
+  &:hover,
+  &:focus {
+    background-color: #2196f3;
+    fill: #fff;
+  }
 }

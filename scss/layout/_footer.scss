@@ -1,33 +1,30 @@
-.footer-nav {
-  display: flex;
-  align-items: baseline;
-  justify-content: space-between;
-}
-
 .footer {
   padding-top: 60px;
   padding-bottom: 60px;
   background-color: #2f303a;
+
+  &-nav {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+  }
 }
 
-.footer-logo span {
-  color: #fff;
-}
-
-.join-list {
-  gap: 10px;
-}
-
-.address {
-  margin-top: 20px;
-  font-style: normal;
-}
 .footer-logo {
   font-family: var(--secondary-page-font);
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   color: var(--accent-page-color);
+
+  & span {
+    color: #fff;
+  }
+}
+
+.address {
+  margin-top: 20px;
+  font-style: normal;
 }
 
 .footer-item:not(:last-child) {
@@ -48,18 +45,20 @@
   color: rgba(255, 255, 255, 0.6);
 
   transition: color var(--trans-accent);
-}
 
-.footer-link:focus,
-.footer-link:hover {
-  color: var(--accent-page-color);
+  &:focus,
+  &:hover {
+    color: var(--accent-page-color);
+  }
 }
 
 .join-list {
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 10px;
 }
+
 .join-title {
   margin-bottom: 20px;
   font-size: 14px;
@@ -81,13 +80,15 @@
   fill: #fff;
 
   transition: background-color var(--trans-accent);
+
+  &:hover,
+  &:focus {
+    background-color: var(--accent-page-color);
+    border-radius: 50%;
+  }
 }
 
-.join-link:hover,
-.join-link:focus {
-  background-color: var(--accent-page-color);
-  border-radius: 50%;
-}
+/*====== footer-form ======*/
 
 .social-form-text {
   margin-bottom: 20px;
@@ -117,9 +118,10 @@
   border: 1px solid rgba(255, 255, 255, 0.3);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
-}
-.inform-user-email::placeholder {
-  color: rgba(255, 255, 255, 0.6);
+
+  &::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+  }
 }
 
 .footer-form-btn {
@@ -153,13 +155,13 @@
   border-radius: 4px;
 
   transition: background var(--trans-accent), box-shadow var(--trans-accent);
-}
 
-.footer-form-btn:focus,
-.footer-form-btn:hover {
-  background: #188ce8;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
+  &:focus,
+  &:hover {
+    background: #188ce8;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+  }
 }
 
 .footer-form-icon {

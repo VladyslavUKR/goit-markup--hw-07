@@ -1,10 +1,11 @@
 .about {
   padding-top: 0px;
   padding-bottom: 94px;
-}
-.about-list {
-  display: flex;
-  justify-content: space-between;
+
+  &-list {
+    display: flex;
+    justify-content: space-between;
+  }
 }
 
 .section-title-about {
@@ -15,23 +16,23 @@
   color: var(--primary-page-color);
 }
 
-.overlay-about {
+.about-ovarlay {
   position: relative;
-}
 
-.about-ovarlay-text {
-  position: absolute;
-  width: 100%;
-  transform: translate(0, -70px);
+  &-text {
+    position: absolute;
+    width: 100%;
+    transform: translate(0, -70px);
 
-  padding: 27px 0;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 16px;
-  text-align: center;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: var(--secondary-accent-page-color);
+    padding: 27px 0;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--secondary-accent-page-color);
 
-  background-color: rgba(47, 48, 58, 0.8);
+    background-color: rgba(47, 48, 58, 0.8);
+  }
 }
